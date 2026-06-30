@@ -74,6 +74,7 @@ void loop() {
 ```
 
 # Bill of Materials
+
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | WGK Portable Monitor | Display for the mirror | $39.99 | <a href="https://www.amazon.com/WGK-Portable-Monitor-15-6-inch-Kickstand/dp/B0DCYBR34X?th=1"> Link </a> |
