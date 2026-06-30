@@ -80,7 +80,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | WGK Portable Monitor | Display for the mirror | $39.99 | <a href="[https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/](https://www.amazon.com/WGK-Portable-Monitor-15-6-inch-Kickstand/dp/B0DCYBR34X?th=1)"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| CanaKit Raspberry Pi 4 Starter Kit | What the mirror runs on | $169.95 | <a href="[(https://www.canakit.com/raspberry-pi-4-starter-kit.html?srsltid=AfmBOoqQb4gPflC-FdNE6q8kvRr3PZ0iNNf-mfZ3B4ASjp9StDkw8tvG)]"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
 # Other Resources/Examples
