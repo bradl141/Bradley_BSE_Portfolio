@@ -74,9 +74,6 @@ void loop() {
 ```
 
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
-
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | WGK Portable Monitor | Display for the mirror | $39.99 | <a href="https://www.amazon.com/WGK-Portable-Monitor-15-6-inch-Kickstand/dp/B0DCYBR34X?th=1"> Link </a> |
