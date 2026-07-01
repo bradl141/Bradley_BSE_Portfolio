@@ -17,10 +17,10 @@ You should comment out all portions of your portfolio that you have not complete
 ![Headstone Image](logo.svg)
   
 # Final Milestone: Creating a frame
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      
+      **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+      
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For your final milestone, explain the outcome of your project. Key details to include are:
 - What you've accomplished since your previous milestone
@@ -79,7 +79,7 @@ void loop() {
 |:--:|:--:|:--:|:--:|
 | WGK Portable Monitor | Display for the mirror | $39.99 | <a href="https://www.amazon.com/WGK-Portable-Monitor-15-6-inch-Kickstand/dp/B0DCYBR34X?th=1"> Link </a> |
 | CanaKit Raspberry Pi 4 Starter Kit | What the mirror runs on | $169.95 | <a href="https://www.canakit.com/raspberry-pi-4-starter-kit.html?srsltid=AfmBOoqQb4gPflC-FdNE6q8kvRr3PZ0iNNf-mfZ3B4ASjp9StDkw8tvG"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| One Way Privacy Film | Reflective Film | $5.99 | <a href="https://www.amazon.com/dp/B0998PYXSH?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1"> Link </a> |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
