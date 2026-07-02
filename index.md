@@ -34,7 +34,7 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="[https://www.youtube.com/embed/y3VAmNlER5Y](https://www.youtube.com/watch?v=Fc8ASIRg2Ys)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
 - Technical details of what you've accomplished and how they contribute to the final goal
@@ -51,9 +51,16 @@ For your first milestone, describe what your project is and how you plan to buil
 - Components
   - Monitor: The display for the Magic Mirror
   - Raspberry Pi: A mini computer that acts as the system the Magic Mirror runs on
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+- Technical Progress
+  - Set up the Raspberry Pi
+  - Installed Magic Mirror
+- Challenges
+  - I had to learn how Linux worked
+  - I ran into some Linux bugs
+- Future Plans
+  - Add more modules
+  - Make it a mirror
+  - Make a case
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
@@ -61,17 +68,160 @@ Here's where you'll put images of your schematics. [Tinkercad](https://www.tinke
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
-```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
+```JavaScript
+- This is my file that sets all the modules, the apps on my Magic Mirror
+- This allows me to configure different settings for each of them.
+let config = {
+	address: "localhost",	// Address to listen on
+	port: 8080,
+	basePath: "/",	// The URL path where MagicMirror² is hosted.
+	ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1"],	// Set [] to allow all IP addresses
 
-void loop() {
-  // put your main code here, to run repeatedly:
+	useHttps: false,			// Support HTTPS or not, default "false" will use HTTP
+	httpsPrivateKey: "",	// HTTPS private key path, only require when useHttps is true
+	httpsCertificate: "",	// HTTPS Certificate path, only require when useHttps is true
 
-}
+	language: "en",
+	locale: "en-US",   
+
+	logLevel: ["INFO", "LOG", "WARN", "ERROR"], // Add "DEBUG" for even more logging
+	timeFormat: 12,
+	units: "metric",
+
+	modules: [
+		{
+			module: "alert",
+		},
+		{
+			module: "updatenotification",
+			position: "top_bar"
+		},
+		{
+			module: "clock",
+			position: "top_right"
+		},
+		{
+			module: "calendar",
+			header: "US Holidays",
+			position: "top_left",
+			config: {
+				calendars: [
+					{
+						fetchInterval: 7 * 24 * 60 * 60 * 1000,
+						symbol: "calendar-check",
+						url: "https://ics.calendarlabs.com/76/mm3137/US_Holidays.ics"
+					}
+				]
+			}
+		},
+		{
+			//module: "compliments",
+			//position: "lower_third"
+		//},
+		{
+			module: "weather",
+			position: "top_left",
+			config: {
+				weatherProvider: "openmeteo",
+				type: "current",
+				lat: 37.407378,
+				lon: -122.088866
+			}
+		},
+		{
+			module: "weather",
+			position: "top_left",
+			header: "Weather Forecast",
+			config: {
+				weatherProvider: "openmeteo",
+				type: "forecast",
+				lat: 37.407378,
+				lon: -122.088866
+			}
+		},
+		{
+			module: "MMM-MyTeams-LeagueTable",
+			position: "bottom_right",
+			header: "League Standings", 
+			config: {
+				updateInterval: 30 * 60 * 1000, 
+				retryDelay: 15000, 
+				maxRetries: 3, 
+				animationSpeed: 2000, 
+				fadeSpeed: 4000, 
+				colored: true, 
+
+				selectedLeagues: [
+					"WORLD_CUP_2026" 
+				],
+
+				autoGenerateButtons: true, 
+				showLeagueButtons: true, 
+				autoFocusRelevantSubTab: true, 
+
+				showWC2026: true, 
+				onlyShowWorldCup2026: true, 
+				showWC2026Groups: ["A","B","C","D","E","F","G","H","I","J","K","L"], 
+				showWC2026Knockouts: ["Rd32", "Rd16", "QF", "SF", "TP", "Final"], 
+				defaultWCSubTab: "C", 
+				displayAllTabs: true, 
+				useMockData: false, 
+
+				showPosition: true, 
+				showTeamLogos: true, 
+				showPlayedGames: true, 
+				showWon: true, 
+				showDrawn: true, 
+				showLost: true, 
+				showGoalsFor: true, 
+				showGoalsAgainst: true, 
+				showGoalDifference: true, 
+				showPoints: true, 
+				showForm: true, 
+				formMaxGames: 6, 
+				enhancedIndicatorShapes: true, 
+				firstPlaceColor: "rgb(142, 142, 142)", 
+				highlightedColor: "rgba(255, 255, 255, 0.1)", 
+				
+				tableDensity: "normal", 
+				fixtureDateFilter: null, 
+				enableVirtualScrolling: true, 
+				virtualScrollThreshold: 10, 
+
+				autoCycle: true, 
+				cycleInterval: 15 * 1000, 
+				wcSubtabCycleInterval: 20 * 1000, 
+				autoCycleWcSubtabs: true, 
+
+				darkMode: true, 
+				fontColorOverride: "#FFFFFF", 
+				opacityOverride: null, 
+				
+				
+				clearCacheButton: true,     
+				clearCacheOnStart: false, 
+				maxTableHeight: 520 
+			}
+		},
+		{
+			module: "newsfeed",
+			position: "bottom_left",
+			config: {
+				feeds: [
+					{
+						title: "New York Times",
+						url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+					}
+				],
+				showSourceTitle: true,
+				showPublishDate: true,
+				broadcastNewsFeeds: true,
+				broadcastNewsUpdates: true
+			}
+		}
+	]
+};
+if (typeof module !== "undefined") { module.exports = config; }
 ```
 
 # Bill of Materials
