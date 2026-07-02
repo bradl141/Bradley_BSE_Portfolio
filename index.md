@@ -43,11 +43,7 @@ For your second milestone, explain what you've worked on since your previous mil
 - What needs to be completed before your final milestone 
 
 # First Milestone: Setting up the Mirror
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=Fc8ASIRg2Ys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-For your first milestone, describe what your project is and how you plan to build it. You can include:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Fc8ASIRg2Ys?si=wR9Xdvz4Gwit2ehI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 - Components
   - Monitor: The display for the Magic Mirror
   - Raspberry Pi: A mini computer that acts as the system the Magic Mirror runs on
