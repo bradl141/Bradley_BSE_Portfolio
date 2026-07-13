@@ -30,16 +30,24 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 
 
-# Second Milestone: Make Case
+# Second Milestone: Making The Case
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
 <iframe width="560" height="315" src="[https://www.youtube.com/embed/y3VAmNlER5Y](https://www.youtube.com/watch?v=Fc8ASIRg2Ys)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Modeled the case
-- Printed the case
-- Added reflective film to it
+- Components
+  - Printed Case: The case that my monitor slots into, which also holds my Raspberry Pi
+  - Reflective Film: Creates the mirror effect on my monitor while allowing light to still show through
+- Technical Progress
+  - Modeled the case in Onshape
+- Challenges
+  - Learning Onshape
+  - I had to modify my design to be printable
+  - Applying the film correctly
+- Future Plans
+  - Add more modules
+  - Make it a mirror
+  - Make a cased
 
 # First Milestone: Setting up the Mirror
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Fc8ASIRg2Ys?si=wR9Xdvz4Gwit2ehI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
