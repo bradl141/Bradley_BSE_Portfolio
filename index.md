@@ -15,25 +15,40 @@ You should comment out all portions of your portfolio that you have not complete
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
-  
-# Final Milestone: Finishing UI
-      
-      **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-      
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+# Modification: Making A Case
+- Components
+  - Printed Case: The case that my monitor slots into, which also holds my Raspberry Pi
+  - Reflective Film: Creates the mirror effect on my monitor while allowing light to still show through
+- Technical Progress
+  - Modeled the case in Onshape
+- Challenges
+  - Learning Onshape
+  - I had to modify my design to be printable
+  - Sizing was wrong, so I had to print multiple times
+  - The case messed with the film
+
+# Final Milestone: Applying Reflective Film
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+- What I've accomplished:
+	- Applied the film to the monitor
+  	- Adjusted UI to stand out more against the film
+- Biggest challenges and triumphs at BSE:
+	- 
+- Key Topics I Learned:
+	- How to solder
+    - How to CAD
+    - How to 3d Print
+    - Using Github
+- What I hope to learn in the future:
+	- b
+    - b
+    -    
 
 
 
-# Second Milestone: Making The Case
-
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
+# Second Milestone: Updating Ui
 <iframe width="560" height="315" src="[[https://www.youtube.com/embed/y3VAmNlER5Y](https://www.youtube.com/watch?v=Fc8ASIRg2Ys](https://www.youtube.com/watch?v=EVJP-fTA7WQ))" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 - Components
   - Printed Case: The case that my monitor slots into, which also holds my Raspberry Pi
