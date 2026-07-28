@@ -1,12 +1,5 @@
 # Smart Mirror
-My project is the Magic Mirror, a program that can display a lot of different widgets on a monitor.
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
-
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
+My project is the Magic Mirror, which aims to work like a mirror with a visible screen behind it. It runs on a Raspberry Pi, which is basically a mini pc that runs a program named MagicMirror. Magic Mirror is a highly customizable interface where you can add custom modules to display pretty much whatever you would want and it becomes a mirror since I added a highly reflective film in front of the monitor.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
