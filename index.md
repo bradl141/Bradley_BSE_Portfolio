@@ -240,6 +240,5 @@ if (typeof module !== "undefined") { module.exports = config; }
 | One Way Privacy Film | Reflective Film | $5.99 | <a href="https://www.amazon.com/dp/B0998PYXSH?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1"> Link </a> |
 
 # Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1: MagicMirror Guide]([https://learn.sparkfun.com/tutorials/how-to-make-a-magic-mirror-with-raspberry-pi/all])
 - [Example 2: MagicMirror Example]([https://noahnewman44.github.io/BSE_Template_Portfolio/])
